@@ -1,5 +1,5 @@
 {
-  "name": "jijzept-portalsite",
+  "name": "site",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,6 @@
     "start": "next start",
     "lint": "next lint",
     "builds": "npx @cloudflare/next-on-pages",
-    "builds-w": "npx @cloudflare/next-on-pages --watch",
     "devs": "npx wrangler pages dev .vercel/output/static --compatibility-flag=nodejs_compat --port=3000 --compatibility-date='2023-05-18' "
   },
   "dependencies": {
